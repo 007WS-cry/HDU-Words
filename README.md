@@ -23,11 +23,11 @@ pip install selenium openai
    打开`Script.py`文件，找到以下代码：
    ```python
    client = OpenAI(
-       api_key = 'sk-EU4oVMljNzqYDBa2LkcCsUC52n72N2yya0wqfp7CTJKNQGg2',
-       base_url = 'https://api.lkeap.cloud.tencent.com/v1'
+       api_key = '输入你的API密钥',
+       base_url = '输入你的API URL'
    )
    ```
-   将`api_key`替换为你自己的OpenAI API密钥。
+   将`api_key`替换为你自己的OpenAI API密钥，`base_url`替换为你的API URL（如果需要的话）。
 
 2. **运行脚本**：
    在命令行中进入脚本所在目录，运行以下命令：
